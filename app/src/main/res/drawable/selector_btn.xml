@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- SHADOW LAYER -->
+            <item android:left="4dp" android:top="4dp">
+                <shape>
+                    <solid android:color="#66000000" />
+                </shape>
+            </item>
+            <!-- CONTENT LAYER -->
+            <item android:bottom="4dp" android:right="4dp">
+                <shape>
+                    <solid android:color="@color/colorTransparent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape>
+            <stroke android:color="@color/colorWhite" android:width="1dp"/>
+            <solid android:color="@color/colorTransparent" />
+        </shape>
+    </item>
+</selector>
+
+    <!--    <?xml version="1.0" encoding="utf-8"?>-->
+    <!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<item android:state_pressed="true">-->
+    <!--    <layer-list>-->
+    <!--        <item android:left="4dp" android:top="4dp">-->
+    <!--            <shape>-->
+    <!--                <solid android:color="@color/colorWhiteTransparent" />-->
+    <!--                <corners android:radius="50dip"/>-->
+    <!--            </shape>-->
+    <!--        </item>-->
+    <!--    </layer-list>-->
+    <!--</item>-->
+    <!--<item>-->
+    <!--    <layer-list>-->
+    <!--        &lt;!&ndash; SHADOW LAYER &ndash;&gt;-->
+    <!--        <item android:left="4dp" android:top="4dp">-->
+    <!--            <shape>-->
+    <!--                <solid android:color="#66000000" />-->
+    <!--            </shape>-->
+    <!--        </item>-->
+    <!--        &lt;!&ndash; CONTENT LAYER &ndash;&gt;-->
+    <!--        <item android:bottom="4dp" android:right="4dp">-->
+    <!--            <shape>-->
+    <!--                <solid android:color="@color/colorTransparent" />-->
+    <!--            </shape>-->
+    <!--        </item>-->
+    <!--    </layer-list>-->
+    <!--</item>-->
+    <!--</selector>-->
